@@ -21,5 +21,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.8.6'
   s.required_rubygems_version = '>= 1.3.5'
-  s.add_bundler_dependencies
+  s.add_dependency 'activesupport', '>= 3.0.0'
+  s.add_dependency 'mongoid', '>=2.4.10', '<4'
 end
